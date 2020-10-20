@@ -15,6 +15,7 @@ function App() {
 				<Navbar />
 				<br />
 				<Route path="/create" component={CreateExercise} />
+				<Route path="/user" component={CreateUser} />
 				
 			</div>
 		</Router>
