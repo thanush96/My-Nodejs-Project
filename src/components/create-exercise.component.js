@@ -124,6 +124,10 @@ export default class CreateExercises extends Component {
 							<DatePicker selected={this.state.date} onChange={this.onChangeDate} />
 						</div>
 					</div>
+
+					<div className="form-group">
+						<input type="submit" value="Create Exercise Log" className="btn btn-primary" />
+					</div>
 				</form>
 			</div>
 		);
